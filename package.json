@@ -1,0 +1,28 @@
+{
+  "name": "sbs-assessment-test",
+  "version": "0.0.0",
+  "description": "Assessment Test for SBS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/softgames/sbs-assessment-test.git"
+  },
+  "keywords": [
+    "assessment",
+    "test"
+  ],
+  "author": "René Simon <rene.simon@softgames.de>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/softgames/sbs-assessment-test/issues"
+  },
+  "homepage": "https://github.com/softgames/sbs-assessment-test#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.15",
+    "jest": "^26.6.3"
+  }
+}
