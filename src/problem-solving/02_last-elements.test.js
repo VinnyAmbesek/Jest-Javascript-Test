@@ -1,4 +1,4 @@
-import { getLastNumbers } from './02_last-elements.js';
+const getLastNumbers = require('./02_last-elements.js');
 
 describe('last-elements', () => {
   const payload = {
