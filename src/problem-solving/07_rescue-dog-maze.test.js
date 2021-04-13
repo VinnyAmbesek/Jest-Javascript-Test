@@ -1,4 +1,4 @@
-import { rescuePrincessPath } from './07_rescue-dog-maze.js';
+const rescueDogPath = require ('./07_rescue-dog-maze.js');
 
 describe('maze', () => {
   it('should return path for rescue princess maze1', () => {
@@ -16,7 +16,7 @@ describe('maze', () => {
     const columns = maze[0].length;
     const startPosition = 1;
     expect(
-      rescuePrincessPath({
+      rescueDogPath({
         rows,
         columns,
         startPosition,
@@ -42,7 +42,7 @@ describe('maze', () => {
     const startPosition = 0;
 
     expect(
-      rescuePrincessPath({
+      rescueDogPath({
         rows,
         columns,
         startPosition,
@@ -68,7 +68,7 @@ describe('maze', () => {
     const startPosition = 3;
 
     expect(
-      rescuePrincessPath({
+      rescueDogPath({
         rows,
         columns,
         startPosition,
@@ -94,7 +94,7 @@ describe('maze', () => {
     const startPosition = 5;
 
     expect(
-      rescuePrincessPath({
+      rescueDogPath({
         rows,
         columns,
         startPosition,
