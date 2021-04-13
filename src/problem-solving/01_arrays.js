@@ -13,7 +13,9 @@ let arrays = class {
  	static concat () {
  		let ret = [];
  		for (let i = 0; i < arguments.length; i++){
- 			ret = ret.concat(arguments[i]);
+ 			for(let j = 0; j < arguments[i].length;j++){
+ 				ret.push(arguments[i][j]);
+ 			}
  		}
   		// arguments[i]
  		return ret;
