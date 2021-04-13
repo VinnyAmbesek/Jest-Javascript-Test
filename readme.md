@@ -1,0 +1,1 @@
+![Jest Workflow](https://github.com/VinnyAmbesek/Jest-Javascript-Test/actions/workflows/node.js.yml/badge.svg)
