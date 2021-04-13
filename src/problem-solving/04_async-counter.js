@@ -8,3 +8,18 @@
  * @param {function(number): void} callback - Called after each 100ms with an increment
  * @returns {function(): void} - Cancel countdown function
  */
+function count(start, end, callback) {
+    let i = start;
+
+    let interval = setInterval(function(){
+    	i = i+1;
+    	if (i > end+start) {
+    		clearInterval(interval);
+    	} else {
+    		callback(i-start);
+    	}
+    }, 100);
+    
+    return function(){clearInterval(interval)}
+}
+module.exports = count;
