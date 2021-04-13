@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import { isPalindromePossible } from './05_anagram-palindrome.js';
+const fs = require('fs');
+const path = require('path');
+const isPalindromePossible = require('./05_anagram-palindrome.js');
 
 describe('anagram-palindrome', () => {
   it('should return true for possible to make palindrome', () => {
