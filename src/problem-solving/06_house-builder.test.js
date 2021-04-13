@@ -1,4 +1,4 @@
-import house from './06_house-builder.js';
+const house = require('./06_house-builder.js');
 
 describe('house-builder', () => {
   it('returns a 1x1 house with a 1 passed in', () => {
